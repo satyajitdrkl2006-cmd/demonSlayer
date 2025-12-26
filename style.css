@@ -166,9 +166,13 @@ header{
 }
 .box{
   border: 2px solid white;
-  width:40%;
-  height: 45%;
+  width:30%;
+  min-width: 500px;
+  max-width: 600px;
+  height: 40%;
+  min-height: 500px;
   margin: 2%;
+  
 }
 
 
@@ -194,6 +198,9 @@ header{
     .heroSxn{
         height: 10%;
         margin-top: 2%;
+    }
+    .box{
+      width: 80%;
     }
 
 }
